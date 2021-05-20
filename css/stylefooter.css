@@ -1,0 +1,809 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Roboto+Condensed:400,500,600,700');
+
+/* -----------------------------------
+    01. General CSS
+-------------------------------------*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 0 0 26px;
+}
+
+h3,
+h4,
+h5 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #212121;
+    margin: 0 0 26px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+a {
+    color: #761475;
+    transition: all 0.3s ease 0s;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+a:active,
+a:hover {
+    text-decoration: none;
+    outline: 0 none;
+    color: #f1bb0a;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background: #761475;
+    text-shadow: none;
+    color: #ffffff;
+}
+
+
+/*-- Readon Button Css --*/
+
+
+/********************************/
+
+
+/*       Slides backgrounds     */
+
+
+/********************************/
+
+.bg3 {
+    background-image: url(../img/counter-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+
+/* ------------------------------------
+    02. Global Class
+---------------------------------------*/
+
+
+/*overly border*/
+
+.margin-remove {
+    margin: 0 !important;
+}
+
+
+/* -. Owl Carousel -*/
+
+
+/* ------------------------------------
+    03. Header Section  
+---------------------------------------*/
+
+
+/* ------------------------------------
+    02. Header Start
+---------------------------------------*/
+
+
+/* ----- Menu -------*/
+
+
+/* ------------------------------------
+    04. Sticky Menu
+---------------------------------------*/
+
+@keyframes sticky-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* ------------------------------------
+    05. Slider
+---------------------------------------*/
+
+
+/* ------------------------------------
+    06. Breadcrumbs
+---------------------------------------*/
+
+
+/* ------------------------------------
+    07. Services
+---------------------------------------*/
+
+
+/* ------------------------------------
+    07. Services
+---------------------------------------*/
+
+
+/* ------------------------------------
+    34. About Us Style8
+---------------------------------------*/
+
+
+/* ------------------------------------
+    08. About Us Style
+---------------------------------------*/
+
+
+/* ------------------------------------
+    08. About Us
+---------------------------------------*/
+
+
+/* ------------------------------------
+    30. Course Categories
+---------------------------------------*/
+
+
+/* ------------------------------------
+    09. rs courses style
+---------------------------------------*/
+
+
+/* ------------------------------------
+    10. Courses Details
+---------------------------------------*/
+
+
+/* ------------------------------------
+    11. Rs-counter
+---------------------------------------*/
+
+
+/* ------------------------------------
+    11. OUR BEST
+---------------------------------------*/
+
+
+/* ------------------------------------
+    11. Rs-counter
+---------------------------------------*/
+
+
+/* ------------------------------------
+    12. Upcoming Events
+---------------------------------------*/
+
+
+/* ------------------------------------
+    14. Countdown
+---------------------------------------*/
+
+
+/* ------------------------------------
+    14. PUBLICATION
+---------------------------------------*/
+
+
+/* ------------------------------------
+    14. Countdown
+---------------------------------------*/
+
+
+/* ------------------------------------
+    13. Team Member
+---------------------------------------*/
+
+
+/* ------------------------------------
+    13. Team Member
+---------------------------------------*/
+
+
+/* ------------------------------------
+    13. Experienced Staffs
+---------------------------------------*/
+
+
+/* ------------------------------------
+    14. Staffs Single
+---------------------------------------*/
+
+
+/* ------------------------------------
+    15. Calltoaction
+---------------------------------------*/
+
+
+/* ------------------------------------
+    16. Latest News
+---------------------------------------*/
+
+
+/* ------------------------------------
+    17. Our Publications
+---------------------------------------*/
+
+
+/* ------------------------------------
+    18. Testimonial
+---------------------------------------*/
+
+
+/* ------------------------------------
+    19. Newsletter
+---------------------------------------*/
+
+
+/* ------------------------------------
+    20. Rs-video
+---------------------------------------*/
+
+
+/* ------------------------------------
+    21. Why Choose Us
+---------------------------------------*/
+
+
+/* ------------------------------------
+    22. Pricing Table
+---------------------------------------*/
+
+
+/* ------------------------------------
+    23. Instagram
+---------------------------------------*/
+
+
+/* ------------------------------------
+    24. About Us Page
+---------------------------------------*/
+
+
+/* ------------------------------------
+    25. Rs Timeline
+---------------------------------------*/
+
+
+/* ------------------------------------
+    26. Elements
+---------------------------------------*/
+
+
+/* ------------------------------------
+    27. Blog Pages
+---------------------------------------*/
+
+
+/* ------------------------------------
+    28 .Blog Details 
+---------------------------------------*/
+
+
+/* ------------------------------------
+    29. Shop Page Start Here 
+---------------------------------------*/
+
+
+/* ------------------------------------
+    30.Shop Single Page Start Here 
+---------------------------------------*/
+
+
+/*-----------------------------------
+    25. Check Out css Start Here
+-------------------------------------*/
+
+
+/*-----------------------------------
+    32. Shipping Area Start Here
+------------------------------------*/
+
+
+/*-------------------------------------
+    32. Contact Page Section Start Here
+--------------------------------------*/
+
+
+/* ------------------------------------
+    33. Rs Gallery
+---------------------------------------*/
+
+
+/* ------------------------------------
+    34. ScrollUp
+---------------------------------------*/
+
+
+/* ------------------------------------
+    35.404 Page Area Start Here 
+---------------------------------------*/
+
+
+/*-------------------------
+    36.Preloader css
+---------------------------*/
+
+@keyframes flip {
+    0% {
+        -webkit-transform: perspective(600px) rotateY(0deg);
+        transform: perspective(600px) rotateY(0deg);
+    }
+    20% {
+        background: #ff3115;
+    }
+    29.9% {
+        background: #ff3115;
+    }
+    30% {
+        -webkit-transform: perspective(200px) rotateY(-90deg);
+        transform: perspective(200px) rotateY(-90deg);
+        background: #e41f05;
+    }
+    54.999% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 0;
+    }
+    60% {
+        -webkit-transform: perspective(200px) rotateY(-180deg);
+        transform: perspective(200px) rotateY(-180deg);
+        background: #e41f05;
+    }
+    100% {
+        -webkit-transform: perspective(200px) rotateY(-180deg);
+        transform: perspective(200px) rotateY(-180deg);
+        background: #e41f05;
+    }
+}
+
+
+/* ------------------------------------
+    37. Rs Footer
+---------------------------------------*/
+
+.rs-footer {
+    color: #e8e8e8;
+    margin-top: 98px;
+}
+
+.rs-footer .footer-title {
+    margin-bottom: 40px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    position: relative;
+    font-weight: 600;
+}
+
+.rs-footer .footer-title:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 1px;
+    width: 50px;
+    background-color: #761475;
+}
+
+.rs-footer .container {
+    position: relative;
+}
+
+.rs-footer .footer-contact-desc {
+    margin: 0;
+    background: #222;
+    text-align: center;
+    padding: 35px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: -100px auto 0;
+    z-index: 1;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.rs-footer .footer-contact-desc div[class*="col-"]+div[class*="col-"] .contact-inner {
+    border-left: 1px solid #e2e2e2;
+}
+
+.rs-footer .footer-contact-desc div[class*="col-"]+div[class*="col-"] .contact-inner:before,
+.rs-footer .footer-contact-desc div[class*="col-"]+div[class*="col-"] .contact-inner:after {
+    content: '';
+    position: absolute;
+    height: calc(100% - 40px);
+    width: 1px;
+    background-color: #e2e2e2;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.rs-footer .footer-contact-desc div[class*="col-"]+div[class*="col-"] .contact-inner:before {
+    left: 3px;
+}
+
+.rs-footer .footer-contact-desc div[class*="col-"]+div[class*="col-"] .contact-inner:after {
+    left: -5px;
+}
+
+.rs-footer .footer-contact-desc .contact-inner {
+    position: relative;
+}
+
+.rs-footer .footer-contact-desc .contact-inner i {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: #761475;
+}
+
+.rs-footer .footer-contact-desc .contact-inner .contact-title {
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.rs-footer .footer-contact-desc .contact-inner .contact-desc {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.rs-footer .footer-top {
+    padding-top: 140px;
+}
+
+.rs-footer .footer-top .recent-post-widget .post-item {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.rs-footer .footer-top .recent-post-widget .post-item .post-date {
+    width: 70px;
+    height: 65px;
+    flex: 0 0 70px;
+    text-align: center;
+    float: left;
+    background-color: #761475;
+    color: #ffffff;
+    margin-right: 15px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.rs-footer .footer-top .recent-post-widget .post-item .post-date span {
+    display: block;
+}
+
+.rs-footer .footer-top .recent-post-widget .post-item .post-date span:first-child {
+    margin-top: 10px;
+}
+
+.rs-footer .footer-top .recent-post-widget .post-item .post-date span:last-child {
+    font-size: 15px;
+}
+
+.rs-footer .footer-top .recent-post-widget .post-item .post-title {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.rs-footer .footer-top .recent-post-widget .post-item .post-title a {
+    font-family: 'Montserrat', sans-serif;
+    color: #e8e8e8;
+}
+
+.rs-footer .footer-top .recent-post-widget .post-item .post-title a:hover,
+.rs-footer .footer-top .recent-post-widget .post-item .post-title a:focus {
+    color: #bbbbbb;
+}
+
+.rs-footer .footer-top .recent-post-widget .post-item .post-category {
+    font-size: 15px;
+}
+
+.rs-footer .footer-top .recent-post-widget .post-item .post-item {
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(102, 102, 102, 0.5);
+}
+
+.rs-footer .footer-top .sitemap-widget li {
+    width: 50%;
+    float: left;
+    line-height: 33px;
+}
+
+.rs-footer .footer-top .sitemap-widget li a {
+    color: #e8e8e8;
+    display: inline-block;
+    position: relative;
+}
+
+.rs-footer .footer-top .sitemap-widget li a:hover,
+.rs-footer .footer-top .sitemap-widget li a:focus {
+    color: #761475;
+}
+
+.rs-footer .footer-top .sitemap-widget li a i {
+    padding-right: 10px;
+}
+
+.rs-footer .footer-top .flickr-feed li {
+    display: inline-block;
+    margin: 2px 3px;
+    overflow: hidden;
+    position: relative;
+    width: 76px;
+}
+
+.rs-footer .footer-top .flickr-feed li img {
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+}
+
+.rs-footer .footer-top .flickr-feed li:hover img {
+    opacity: 0.7;
+}
+
+.rs-footer .footer-top .about-widget img {
+    margin-bottom: 25px;
+}
+
+.rs-footer .footer-share {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.rs-footer .footer-share ul li {
+    display: inline-block;
+}
+
+.rs-footer .footer-share ul li a {
+    font-size: 13px;
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    transition: all .3s ease 0s;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.rs-footer .footer-share ul li a:hover {
+    background-color: #761475;
+    color: #ffffff;
+}
+
+.rs-footer .footer-share ul li+li {
+    margin-left: 5px;
+}
+
+.rs-footer .footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 18px 0;
+    margin-top: 35px;
+}
+
+.rs-footer .footer-bottom .copyright p {
+    opacity: 0.95;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+@keyframes rs-animation-scale-up {
+    0% {
+        opacity: 0;
+        transform: scale(0.2);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/*---------------------
+    Pulse Animation
+---------------------*/
+
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
+}
+
+
+/*------------------------------
+    Swing Animation
+------------------------------*/
+
+@keyframes swing-anim {
+    from {
+        transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+    }
+    to {
+        transform: rotate(-60deg);
+        -webkit-transform: rotate(-60deg);
+    }
+}
+
+@-webkit-keyframes swing-anim {
+    to {
+        transform: rotate(-60deg);
+        -webkit-transform: rotate(-60deg);
+    }
+}
+
+@keyframes swing-anim2 {
+    from {
+        transform: rotate(40deg);
+        -webkit-transform: rotate(40deg);
+    }
+    to {
+        transform: rotate(-40deg);
+        -webkit-transform: rotate(-40deg);
+    }
+}
+
+@-webkit-keyframes swing-anim2 {
+    to {
+        transform: rotate(-40deg);
+        -webkit-transform: rotate(-40deg);
+    }
+}
+
+
+/* 
+glowing buttonssssssssssssssssssssss */
+
+.a {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    /* margin: 40px 0; */
+    color: #761475;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    /* margin-right: 50px; */
+}
+
+.a:hover {
+    background: #761475;
+    color: #ffffff;
+    box-shadow: 0 0 5px #761475, 0 0 25px #761475, 0 0 50px #761475, 0 0 200px #761475;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.a:nth-child(1) {
+    filter: rotate(270deg);
+}
+
+.a:nth-child(2) {
+    filter: rotate(110deg);
+}
+
+.a span {
+    position: absolute;
+    display: block;
+}
+
+.a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #761475);
+    animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        left: -100%;
+    }
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+
+.a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #761475);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+    0% {
+        top: -100%;
+    }
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+
+.a span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #761475);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+
+@keyframes animate3 {
+    0% {
+        right: -100%;
+    }
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+.a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #761475);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+    0% {
+        bottom: -100%;
+    }
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}
